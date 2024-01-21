@@ -1,0 +1,51 @@
+name: Upload Prebuilt (MoreCompany) Zip
+
+on:
+  push:
+    paths:
+      - 'CHANGELOG.md'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create CookiesMoreCompany Zip
+        run: |
+          sudo apt install zip
+          zip -r CookiesMoreCompany.zip icon.png manifest.json BepInEx README.md CHANGELOG.md
+      - id: pub
+        uses: ./
+        with:
+          namespace: ChocolateCookies
+          name: CookiesMoreCompany
+          token: ${{ secrets.TS_KEY }}
+          description: |
+            🍪 [v47 & v49] A Lethal Company Modpack Focused on MoreCompany and all of it's addons! 🍪
+          version: v1.${{ github.run_number }}.0
+          community: lethal-company
+          repo: thunderstore.io
+          website: "https://creampies.wtf"
+          categories: |
+            asset-replacements
+            emotes
+            furniture
+            monsters
+            items
+            equipment
+            suits
+            tools
+            mods
+            modpacks
+            misc
+            audio
+            bepinex
+          # Check the correct format for dependencies in Thunderstore
+          deps: | 
+            ChocolateCookies-CookiesMoreCompany-1.${{ github.run_number }}.0
+          file: ./CookiesMoreCompany.zip
+      - run: echo ${{ steps.pub.outputs.url }}
