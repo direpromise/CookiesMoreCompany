@@ -17,7 +17,7 @@ jobs:
       - name: Create CookiesMoreCompany Zip
         run: |
           sudo apt install zip
-          zip -r ../CookiesMoreCompany.zip icon.png manifest.json README.md BepInEx CHANGELOG.md
+          zip -r CookiesMoreCompany.zip icon.png manifest.json README.md BepInEx CHANGELOG.md
       - id: pub
         uses: ./
         with:
