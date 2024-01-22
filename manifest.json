@@ -1,10 +1,11 @@
 {
   "name": "CookiesMoreCompany",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://discord.gg/7r7RBpybVK",
   "description": "🍪 [v47 & v49] A Lethal Company Modpack Focused on MoreCompany and many of it's addons! 🍪",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100",
+    "notnotnotswipez-MoreCompany-1.7.6",
     "EliteMasterEric-WackyCosmetics-2.0.0",
     "NiaNation-AbsasCosmetics-1.2.3",
     "Hexa-Hexas_Cosmetics-0.0.2",
@@ -14,6 +15,15 @@
     "Smxrez-SmoreCosmetics-1.4.0",
     "fizzysaur-Happy_Hats-2.0.0",
     "HGG-JigglePhysicsPlugin-1.1.1",
-    "Sluka-CosmeticMegapack-1.2.0"
+    "Sluka-CosmeticMegapack-1.2.0",
+    "Mhz-MoreHead-1.2.5",
+    "happyfrosty-FrostyCosmetics-1.0.7",
+    "Insomniax-InsomniaxCosmetics-1.2.0",
+    "LRC-LRCCosmetics-1.3.0",
+    "Sai-SaiCosmetics-1.1.0",
+    "broiiler-inacraft_cosmetics_megapack-1.0.1",
+    "companyemployee-EquipmentCompany-1.3.0",
+    "Luigi-Nintendo_Hats-1.4.0",
+    "Spark_Studios-Gridian_Cosmetics-1.4.1"
   ]
 }
