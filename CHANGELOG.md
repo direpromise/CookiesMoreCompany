@@ -1,3 +1,7 @@
+# CookiesMoreCompany 1.0.3
+
+- Updated Jiggle Physics
+
 # CookiesMoreCompany 1.0.2
 
 - Added MoreCompany
