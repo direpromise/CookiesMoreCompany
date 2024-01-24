@@ -1,6 +1,6 @@
 {
   "name": "CookiesMoreCompany",
-  "version_number": "1.0.3",
+  "version_number": "1.0.4",
   "website_url": "https://discord.gg/7r7RBpybVK",
   "description": "🍪 [v47 & v49] A Lethal Company Modpack Focused on MoreCompany and many of it's addons! 🍪",
   "dependencies": [
@@ -24,6 +24,9 @@
     "broiiler-inacraft_cosmetics_megapack-1.0.1",
     "companyemployee-EquipmentCompany-1.3.0",
     "Luigi-Nintendo_Hats-1.4.0",
-    "Spark_Studios-Gridian_Cosmetics-1.4.1"
+    "Spark_Studios-Gridian_Cosmetics-1.4.1",
+    "PlainBen-BensCosmetics-1.1.0",
+    "SpookyFingas-Cute_Cosmetics-2.0.0",
+    "PupVR-Pups_Cute_Cosmetics-1.1.5"
   ]
 }

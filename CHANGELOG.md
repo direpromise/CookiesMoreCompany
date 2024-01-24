@@ -1,3 +1,9 @@
+# CookiesMoreCompany 1.0.4
+
+- Added Cute Cosmetics
+- Added Pups Cute Cosmetics
+- Added BensCosmetics
+
 # CookiesMoreCompany 1.0.3
 
 - Updated Jiggle Physics
