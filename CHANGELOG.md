@@ -1,3 +1,7 @@
+# CookiesMoreCompany 1.0.41
+
+- Updated BensCosmetics
+
 # CookiesMoreCompany 1.0.4
 
 - Added Cute Cosmetics
