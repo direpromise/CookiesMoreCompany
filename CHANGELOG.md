@@ -1,3 +1,7 @@
+# CookiesMoreCompany 1.0.43
+
+- Updated BensCosmetics
+
 # CookiesMoreCompany 1.0.42
 
 - Updated BandaidsMegaCosmetics
