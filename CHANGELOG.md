@@ -1,3 +1,7 @@
+# CookiesMoreCompany 1.0.44
+
+- Updated README.md
+
 # CookiesMoreCompany 1.0.43
 
 - Updated BensCosmetics
